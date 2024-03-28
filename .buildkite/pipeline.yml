@@ -1,3 +1,3 @@
 steps:
-  - command: sleep 15 && echo "Hello"
-  - command: sleep 15 && echo "World"
+  - command: sleep 16 && echo "Hello"
+  - command: sleep 16 && echo "World"

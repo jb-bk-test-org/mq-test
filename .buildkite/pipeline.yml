@@ -9,4 +9,4 @@ steps:
     key: world
     depends_on: hello
   - command: echo "Complete!"
-    dpeends_on: world
+    depends_on: world

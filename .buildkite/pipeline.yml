@@ -1,3 +1,7 @@
+agents:
+  queue: jeremy-sandbox
 steps:
   - command: sleep 15 && echo "Hello"
+    label: "hello"
   - command: sleep 15 && echo "World"
+    label: "world"

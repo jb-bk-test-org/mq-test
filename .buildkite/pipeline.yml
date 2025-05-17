@@ -8,6 +8,6 @@ steps:
     label: "world"
     key: world
     depends_on: hello
+  - wait: ~
   - command: echo "Complete!"
-    depends_on: world
 

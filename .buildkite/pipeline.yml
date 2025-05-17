@@ -3,5 +3,11 @@ agents:
 steps:
   - command: sleep 15 && echo "Hello"
     label: "hello"
+    key: hello
   - command: sleep 15 && echo "World"
     label: "world"
+    key: world
+    depends_on: hello
+  - command: echo "Complete!"
+    depends_on: world
+
